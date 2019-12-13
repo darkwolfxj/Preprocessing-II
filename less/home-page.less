@@ -6,30 +6,26 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    @media@phone{
-      flex-direction:column;
-      width:100%;
-    }
+    
    
     
     .text-content {
       width: 48%;
       padding-right: 1%;
-      width:100%;
+      @media @phone{
+        width:100%;
+        padding:2% 0;
+      }
     }
 
     .img-content {
       width: 48%;
       padding-left: 1%;
-<<<<<<< HEAD
-=======
       @media @phone{
         width:100%;
         display:flex;
         justify-content:center;
       }
->>>>>>> parent of 47f7b97... fed up royally
-
       img {
         border-radius: 10px;
       }
@@ -37,15 +33,11 @@
   }
 
   .inverse-content {
-<<<<<<< HEAD
-=======
+    padding-bottom: 30px;
+    border-bottom: 2px dashed @navigation-border;
     @media @phone{
       flex-direction:column-reverse;
     }
->>>>>>> parent of 47f7b97... fed up royally
-    padding-bottom: 30px;
-    border-bottom: 2px dashed @navigation-border;
-
     .text-content {
       padding-left: 1%;
       padding-right: 0;
@@ -56,13 +48,12 @@
       padding-left: 0;
     }
   }
-<<<<<<< HEAD
-=======
-}
->>>>>>> parent of 47f7b97... fed up royally
 
   .content-destination {
     width: 75%;
+    @media @phone{
+      width:100%;
+    }
     margin: 0 auto 30px;
 
     img {
@@ -75,8 +66,15 @@
     border-top: 2px dashed @navigation-border;
     display: flex;
     justify-content: space-between;
+    @media @phone{
+      flex-direction:column;
+      width:100%;
+    }
 
     .destination {
+      @media @phone{
+        width:100%;
+      }
       width: 30%;
       margin-bottom: 30px;
     }
@@ -112,9 +110,10 @@
   }
   .btn{
     .button();
+    @media @phone{
+      width:95%;
+      height:7vh;
+      font-size:2rem;
+    }
   }
-<<<<<<< HEAD
 }// home
-=======
-}// home
->>>>>>> parent of 47f7b97... fed up royally
