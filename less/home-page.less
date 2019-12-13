@@ -1,16 +1,21 @@
 .home {
 
+
   .content-section {
     margin: 30px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
+    @media@phone{
+      flex-direction:column;
+      width:100%;
+    }
    
     
     .text-content {
       width: 48%;
       padding-right: 1%;
+      width:100%;
     }
 
     .img-content {
@@ -57,5 +62,34 @@
       width: 30%;
       margin-bottom: 30px;
     }
+  }
+  .header-bar{
+    padding:2% 0;
+    border-bottom:2px dashed lightgrey;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    @media @phone{
+      display:flex;
+      flex-direction:column;
+      width:100%;
+   .fun-bus{
+     @media @phone{
+       padding:5% 0;
+   }
+  }
+  }
+}
+  .header-image{
+    padding-bottom:2%;
+  }
+  .welcome{
+    border-bottom:2px dashed lightgrey;
+  }
+  .content-pick{
+    margin-bottom:6%;
+  }
+  .btn{
+    .button();
   }
 }// home
