@@ -6,16 +6,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    @media@phone{
-      flex-direction:column;
-      width:100%;
-    }
+    
    
     
     .text-content {
       width: 48%;
       padding-right: 1%;
-      width:100%;
     }
 
     .img-content {
@@ -25,7 +21,6 @@
         width:100%;
         display:flex;
         justify-content:center;
-      }
 
       img {
         border-radius: 10px;
@@ -34,11 +29,11 @@
   }
 
   .inverse-content {
+    padding-bottom: 30px;
+    border-bottom: 2px dashed @navigation-border;
     @media @phone{
       flex-direction:column-reverse;
     }
-    padding-bottom: 30px;
-    border-bottom: 2px dashed @navigation-border;
 
     .text-content {
       padding-left: 1%;
@@ -56,7 +51,7 @@
         padding:2% 0;
       }
   }
-}
+
 
   .content-destination {
     @media @phone {
@@ -122,4 +117,6 @@
       height:7vh;
     }
   }
+}
+}
 }// home
