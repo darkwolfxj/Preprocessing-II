@@ -218,9 +218,7 @@ nav a:hover {
   width: 48%;
   padding-left: 1%;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 @media (max-width:500px) {
   .home .content-section .img-content {
     width: 100%;
@@ -241,9 +239,7 @@ nav a:hover {
   }
 }
 .home .content-section .inverse-content .text-content {
-=======
-=======
->>>>>>> parent of 1d83dba... finished
+
 .home .content-section .img-content img {
   border-radius: 10px;
 }
@@ -251,8 +247,6 @@ nav a:hover {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
 }
-<<<<<<< HEAD
-=======
 .home .content-section .img-content img {
   border-radius: 10px;
 }
@@ -260,11 +254,8 @@ nav a:hover {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
 }
->>>>>>> parent of 1d83dba... finished
-=======
->>>>>>> parent of 1d83dba... finished
 .home .inverse-content .text-content {
->>>>>>> parent of 1d83dba... finished
+
   padding-left: 1%;
   padding-right: 0;
 }
@@ -272,9 +263,7 @@ nav a:hover {
   padding-right: 1%;
   padding-left: 0;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 @media (max-width:500px) {
   .home .content-section .inverse-content .img-content {
     width: 100%;
@@ -293,25 +282,26 @@ nav a:hover {
   }
 }
 .home .content-section .inverse-content .content-destination img {
-=======
+
 .home .content-destination {
   width: 75%;
   margin: 0 auto 30px;
 }
-=======
+
 .home .content-destination {
   width: 75%;
   margin: 0 auto 30px;
 }
->>>>>>> parent of 1d83dba... finished
-=======
+
 .home .content-destination {
   width: 75%;
   margin: 0 auto 30px;
 }
->>>>>>> parent of 1d83dba... finished
+.home .content-destination {
+  width: 75%;
+  margin: 0 auto 30px;
+}
 .home .content-destination img {
->>>>>>> parent of 1d83dba... finished
   border-radius: 10px;
 }
 .home .content-section .inverse-content .content-pick {
@@ -320,9 +310,7 @@ nav a:hover {
   display: flex;
   justify-content: space-between;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 @media (max-width:500px) {
   .home .content-section .inverse-content .content-pick {
     flex-direction: column;
@@ -338,25 +326,15 @@ nav a:hover {
   }
 }
 .home .content-section .inverse-content .header-bar {
-=======
+
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
 }
-=======
-.home .content-pick .destination {
-  width: 30%;
-  margin-bottom: 30px;
-}
->>>>>>> parent of 1d83dba... finished
-=======
-.home .content-pick .destination {
-  width: 30%;
-  margin-bottom: 30px;
-}
->>>>>>> parent of 1d83dba... finished
+
+
 .home .header-bar {
->>>>>>> parent of 1d83dba... finished
+
   padding: 2% 0;
   border-bottom: 2px dashed lightgrey;
   display: flex;
@@ -370,19 +348,10 @@ nav a:hover {
     width: 100%;
   }
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 @media (max-width:500px) {
   .home .content-section .inverse-content .header-bar .fun-bus {
-=======
-=======
->>>>>>> parent of 1d83dba... finished
-=======
->>>>>>> parent of 1d83dba... finished
-@media (max-width:500px) and (max-width:500px) {
-  .home .header-bar .fun-bus {
->>>>>>> parent of 1d83dba... finished
+
     padding: 5% 0;
   }
 }
@@ -405,9 +374,7 @@ nav a:hover {
   color: white;
   font-size: 1.6rem;
   text-align: center;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
   border-radius: 15px;
 }
 .home .content-section .inverse-content .btn:hover {
@@ -419,13 +386,8 @@ nav a:hover {
     width: 100%;
     height: 7vh;
   }
-=======
+
   border-radius: 10px;
->>>>>>> parent of 1d83dba... finished
-=======
-  border-radius: 10px;
->>>>>>> parent of 1d83dba... finished
-=======
-  border-radius: 10px;
->>>>>>> parent of 1d83dba... finished
+
+
 }
