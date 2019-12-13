@@ -5,9 +5,12 @@
     display:flex;
     justify-content:center;
     align-items:center;
-    background-color:mediumseagreen;
+    background-color:@button-bg;
     color:white;
     font-size:1.6rem;
     text-align:center;
-    border-radius:10px;
+    border-radius:15px;
+    &:hover{
+        background-color:lighten(@button-bg, 20%);
+    }
 }
